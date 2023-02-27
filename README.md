@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository contains the source code and data of all programs used in the manuscript "Potential application of deep learning for assessing immune infiltration in hepatocellular carcinoma".
+This repository contains the source code and data of all programs used in the manuscript "Exploring the use of deep learning to assess immune infiltration in patients with hepatocellular carcinoma".
 
 ## How to get the original data？
 The raw data of R scripts are stored in the /R/Data directory, and the deep learning training data used by C# programs are available on the release page. In addition, the tile data of the Xijing Hospital cohort used for validation is stored in the RELEASE page.
