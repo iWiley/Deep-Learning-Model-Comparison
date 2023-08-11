@@ -1,7 +1,7 @@
 warning("Please manually run the code line by line and save the image from the preview box.")
 source("00.Functions.R")
 CheckPackage(c("readxl"))
-# First we need to get the cutoff value
+# First we need to get the cutoff value.
 source("01.CalculateCutoff.R")
 OrginalData.TCGA$Group = ifelse(OrginalData.TCGA$prec.TIL > res.cut.TCGA$prec.TIL$estimate, "High TIL", "Low TIL")
 pdf(file = "TCGA.TIL.OS.PDF", width = 6, height = 6)
