@@ -15,7 +15,7 @@ from torchvision.datasets import ImageFolder
 
 from Python.script.Model import Model
 
-dataDir = 'Python/data/Train'
+dataDir = './Python/data/Train'
 if len(os.listdir(dataDir)) == 0:
     raise Exception(
         "Please ensure that the data directory 'Python/data/Train' is not empty. You may need to download training data from the Github release page of this project.")
